@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .filters {
+    @apply flex gap-14 justify-center;
+  }
+  .filter-btn {
+    @apply text-2xl;
+  }
+  .filter-btn.active {
+    @apply text-gold border-b border-gold;
+  }
+}
